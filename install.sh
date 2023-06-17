@@ -40,7 +40,9 @@ sudo apt install -y network-manager-gnome
 #sudo systemctl enable --now libvirtd
 #sudo systemctl start libvirtd
 
-sudo apt install -y virtualbox-qt deepin-deb-installer
+sudo apt install -y virtualbox-qt deepin-deb-installer cockpit
+sudo systemctl enable --now cockpit.socket
+sudo usermod -aG sudo and
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install -y ./google-chrome*.deb
