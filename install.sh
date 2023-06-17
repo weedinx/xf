@@ -18,7 +18,7 @@ sudo apt --no-install-recommends install -y libreoffice-writer libreoffice-gtk3 
 sudo apt install -y libreoffice-l10n-pt-br -y
 
 sudo apt install -y chromium-browser libgtk-3-dev uim-gtk2.0 gdebi
-sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman
+sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman xarchiver
 sudo apt install -y lightdm lightdm-gtk-greeter
 
 chmod 777 /usr/share/themes/*
