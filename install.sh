@@ -29,6 +29,11 @@ sudo apt update
 
 sudo apt install -y network-manager-gnome
 
+sudo apt install -y qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon
+sudo systemctl enable --now libvirtd
+sudo apt update
+sudo apt install -y virt-manager
+
 sudo apt update && sudo apt upgrade -y
 
 sudo shutdown -r now
