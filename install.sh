@@ -4,6 +4,8 @@ sudo apt update && sudo apt upgrade -y
 
 cp xf/apt.conf /etc/apt/
 
+sudo apt update
+
 sudo apt install linux-firmware -y
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
 sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 xfce4-taskmanager tango-icon-theme xfce4-power-manager gtk2-engines gtk2-engines-pixbuf
@@ -15,7 +17,7 @@ sudo apt install -y thunar-data thunar-volman thunar xfce4-terminal thunar-media
 sudo apt --no-install-recommends install -y libreoffice-writer libreoffice-gtk3 -y
 #sudo apt install -y libreoffice-l10n-pt-br -y
 
-sudo apt install -y chromium-browser libgtk-3-dev uim-gtk2.0
+sudo apt install -y chromium-browser libgtk-3-dev uim-gtk2.0 gdebi
 sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman
 sudo apt install -y lightdm lightdm-gtk-greeter
 
