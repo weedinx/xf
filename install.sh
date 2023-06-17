@@ -27,7 +27,7 @@ chmod 777 /usr/share/icons/*
 
 sudo apt update
 
-sudo apt install -y network-manager
+sudo apt install -y network-manager-gnome
 
 sudo apt update && sudo apt upgrade -y
 
