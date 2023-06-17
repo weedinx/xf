@@ -40,7 +40,16 @@ sudo apt install -y network-manager-gnome
 #sudo systemctl enable --now libvirtd
 #sudo systemctl start libvirtd
 
-sudo apt install -y virtualbox-qt
+sudo apt install -y virtualbox-qt deepin-deb-installer
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install -y ./google-chrome*.deb
+
+wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb
+sudo apt install -y ./code*.deb
+
+wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
+sudo apt install -y ./balena-etcher*.deb
 
 sudo apt update && sudo apt upgrade -y
 
