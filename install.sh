@@ -8,7 +8,7 @@ sudo apt update
 
 sudo apt install -y linux-firmware
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
-sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 xfce4-taskmanager tango-icon-theme xfce4-power-manager gtk2-engines gtk2-engines-pixbuf
+sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 xfce4-taskmanager tango-icon-theme xfce4-screenshooter xfce4-power-manager gtk2-engines gtk2-engines-pixbuf xfce4-systemload-plugin
 sudo apt install -y gvfs gvfs-fuse gvfs-backends policykit-1 udisks2
 
 sudo apt install -y dkms curl zip unzip git htop viewnior cpu-x gpick yaru-theme-gtk yaru-theme-icon pavucontrol pulseaudio-utils pulseaudio cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
