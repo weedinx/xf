@@ -13,6 +13,7 @@ sudo apt update
 cp xf/apt.conf /etc/apt/
 tar xvzf xf/kora.tar.gz
 cp -r kora/ /usr/share/icons/
+rm -rf xf/kora.tar.gz
 
 sudo apt install -y linux-firmware
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
