@@ -31,11 +31,13 @@ sudo apt update
 
 sudo apt install -y network-manager-gnome
 
-sudo apt install -y qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon
-sudo apt update
-sudo apt install -y virt-manager
-sudo systemctl enable --now libvirtd
-sudo systemctl start libvirtd
+#sudo apt install -y qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon
+#sudo apt update
+#sudo apt install -y virt-manager
+#sudo systemctl enable --now libvirtd
+#sudo systemctl start libvirtd
+
+sudo apt install -y virtualbox-qt
 
 sudo apt update && sudo apt upgrade -y
 
