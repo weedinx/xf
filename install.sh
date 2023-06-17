@@ -21,9 +21,9 @@ sudo apt install -y firefox libgtk-3-dev uim-gtk2.0 gdebi
 sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman xarchiver
 sudo apt install -y lightdm lightdm-gtk-greeter
 
-chmod 777 /usr/share/themes/*
-chmod 777 /usr/share/backgrounds/*
-chmod 777 /usr/share/icons/*
+sudo chmod 777 /usr/share/themes/
+sudo chmod 777 /usr/share/backgrounds/
+sudo chmod 777 /usr/share/icons/
 
 sudo apt update
 
