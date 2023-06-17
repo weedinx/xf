@@ -2,9 +2,17 @@
 
 sudo apt update && sudo apt upgrade -y
 
-cp xf/apt.conf /etc/apt/
+sudo apt install -y zip unzip tar gzip p7zip-full p7zip-rar
+
+sudo chmod 777 /usr/share/themes/
+sudo chmod 777 /usr/share/backgrounds/
+sudo chmod 777 /usr/share/icons/
 
 sudo apt update
+
+cp xf/apt.conf /etc/apt/
+tar xvzf xf/kora.tar.gz
+cp -r kora/ /usr/share/icons/
 
 sudo apt install -y linux-firmware
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
@@ -20,12 +28,6 @@ sudo apt install -y libreoffice-l10n-pt-br -y
 sudo apt install -y firefox libgtk-3-dev uim-gtk2.0
 sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman xarchiver
 sudo apt install -y lightdm lightdm-gtk-greeter
-
-sudo apt install -y zip unzip  tar gzip p7zip-full p7zip-rar
-
-sudo chmod 777 /usr/share/themes/
-sudo chmod 777 /usr/share/backgrounds/
-sudo chmod 777 /usr/share/icons/
 
 sudo apt update
 
