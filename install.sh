@@ -17,7 +17,7 @@ sudo apt install -y thunar-data thunar-volman thunar xfce4-terminal thunar-media
 sudo apt --no-install-recommends install -y libreoffice-writer libreoffice-gtk3 -y
 sudo apt install -y libreoffice-l10n-pt-br -y
 
-sudo apt install -y firefox-esr-l10n-pt-br libgtk-3-dev uim-gtk2.0 gdebi
+sudo apt install -y firefox libgtk-3-dev uim-gtk2.0 gdebi
 sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman xarchiver
 sudo apt install -y lightdm lightdm-gtk-greeter
 
