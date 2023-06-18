@@ -10,10 +10,10 @@ sudo chmod 777 /usr/share/backgrounds/xfce/
 sudo chmod 777 /usr/share/icons/
 
 tar xvzf xf/wallpapers1.tar.gz
-cp xf/wallpapers1/* /usr/share/backgrounds/
-cp xf/wallpapers1/* /usr/share/backgrounds/xfce/
+
+cp wallpapers1/* /usr/share/backgrounds/
 tar xvzf xf/wallpapers2.tar.gz
-cp xf/wallpapers2/* /usr/share/backgrounds/
+cp wallpapers2/* /usr/share/backgrounds/
 cp xf/wallpapers2/* /usr/share/backgrounds/xfce/
 
 sudo apt update
@@ -25,7 +25,7 @@ cp -r kora/ /usr/share/icons/
 #sudo apt install -y network-manager-gnome
 
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
-sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 xfce4-taskmanager xfce4-screenshooter xfce4-power-manager gtk2-engines policykit-1 gtk2-engines-pixbuf thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin
+sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 xfce4-taskmanager xfce4-screenshooter xfce4-power-manager gtk2-engines policykit-1 gtk2-engines-pixbuf thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin xarchiver
 
 #sudo apt install -y thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin
 
@@ -41,8 +41,7 @@ sudo apt install -y dkms curl git htop viewnior cpu-x gpick yaru-theme-gtk greyb
 #yaru-theme-icon
 sudo apt update
 
-sudo apt install -y libgtk-3-dev uim-gtk2.0
-sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman xarchiver
+sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman libgtk-3-dev
 sudo apt install -y lightdm lightdm-gtk-greeter
 
 sudo apt update
