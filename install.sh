@@ -10,7 +10,6 @@ sudo chmod 777 /usr/share/backgrounds/xfce/
 sudo chmod 777 /usr/share/icons/
 
 tar xvzf xf/wallpapers1.tar.gz
-
 cp wallpapers1/* /usr/share/backgrounds/
 tar xvzf xf/wallpapers2.tar.gz
 cp wallpapers2/* /usr/share/backgrounds/
@@ -20,7 +19,8 @@ sudo apt update
 
 cp xf/apt.conf /etc/apt/
 tar xvzf xf/kora.tar.gz
-cp -r kora/ /usr/share/icons/
+cp -R kora/ /usr/share/icons/
+sudo chmod 777 /usr/share/icons/kora/
 
 #sudo apt install -y network-manager-gnome
 
