@@ -26,8 +26,12 @@ sudo apt install -y gvfs gvfs-fuse gvfs-backends udisks2
 sudo apt install -y dkms curl git htop viewnior cpu-x gpick yaru-theme-gtk yaru-theme-icon pavucontrol pulseaudio-utils pulseaudio cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip -y
 #sudo apt install -y thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin
 
-sudo apt --no-install-recommends install -y libreoffice-writer libreoffice-gtk3 -y
+sudo apt install -y libreoffice-writer libreoffice-gtk3 -y
 sudo apt install -y libreoffice-l10n-pt-br -y
+
+mv /etc/apt/apt.conf /etc/apt/apt.conf.a
+
+sudo apt update
 
 sudo apt install -y firefox libgtk-3-dev uim-gtk2.0
 sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman xarchiver
@@ -35,20 +39,10 @@ sudo apt install -y lightdm lightdm-gtk-greeter
 
 sudo apt update
 
-sudo apt install -y virtualbox-qt deepin-deb-installer cockpit
+sudo apt install -y virtualbox
+sudo apt install -y deepin-deb-installer cockpit
 sudo systemctl enable --now cockpit.socket
 sudo usermod -aG sudo and
-
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install -y ./google-chrome*.deb
-
-wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb
-sudo apt install -y ./code*.deb
-
-wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
-sudo apt install -y ./balena-etcher*.deb
-
-mv /etc/apt/apt.conf /etc/apt/apt.conf.a
 
 sudo apt update
 
@@ -75,6 +69,15 @@ sudo apt install gnome-software-plugin-flatpak
 sudo apt update
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo apt update
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install -y ./google-chrome*.deb
+
+wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb
+sudo apt install -y ./code*.deb
+
+wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
+sudo apt install -y ./balena-etcher*.deb
 
 sudo apt update && sudo apt upgrade -y
 
