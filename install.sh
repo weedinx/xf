@@ -98,6 +98,9 @@ rm -rf xf/
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
 
+systemctl disable systemd-networkd-wait-online.service
+systemctl mask systemd-networkd-wait-online.service
+
 sudo apt update && sudo apt upgrade -y
 
 sudo shutdown -r now
