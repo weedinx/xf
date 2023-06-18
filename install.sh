@@ -70,8 +70,8 @@ sudo apt update
 sudo apt install -y linux-firmware
 sudo apt update
 
-wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
-sudo apt install -y ./balena-etcher*.deb
+wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb -O balena.deb
+sudo dpkg -i balena.deb
 
 mv /etc/apt/apt.conf.a /etc/apt/apt.conf
 
@@ -86,13 +86,11 @@ sudo apt update
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo apt update
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install -y ./google-chrome*.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
+sudo dpkg -i chrome.deb
 
-wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb
-sudo apt install -y ./code*.deb
-
-rm -rf xf/
+wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb -O vscode.deb
+sudo dpkg -i chrome.deb
 
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
