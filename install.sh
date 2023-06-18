@@ -61,6 +61,8 @@ sudo systemctl start libvirtd
 
 mv /etc/apt/apt.conf.a /etc/apt/apt.conf
 
+sudo apt update
+
 sudo apt install flatpak
 sudo add-apt-repository ppa:flatpak/stable
 sudo apt update
