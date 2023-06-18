@@ -48,9 +48,9 @@ sudo apt install -y ./code*.deb
 wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
 sudo apt install -y ./balena-etcher*.deb
 
-sudo apt update
-
 mv /etc/apt/apt.conf /etc/apt/apt.conf.a
+
+sudo apt update
 
 sudo apt install -y network-manager-gnome
 
