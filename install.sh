@@ -15,13 +15,11 @@ tar xvzf xf/kora.tar.gz
 cp -r kora/ /usr/share/icons/
 rm -rf xf/kora.tar.gz
 
-sudo apt install -y network-manager-gnome
+#sudo apt install -y network-manager-gnome
 
 sudo apt install -y linux-firmware
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
 sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 xfce4-taskmanager tango-icon-theme xfce4-screenshooter xfce4-power-manager gtk2-engines policykit-1 gtk2-engines-pixbuf thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin
-
-mv /etc/apt/apt.conf /etc/apt/apt.conf.a 
 
 sudo apt install -y gvfs gvfs-fuse gvfs-backends udisks2
 
@@ -55,6 +53,8 @@ sudo apt install -y ./code*.deb
 
 wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
 sudo apt install -y ./balena-etcher*.deb
+
+mv /etc/apt/apt.conf /etc/apt/apt.conf.a 
 
 sudo apt update && sudo apt upgrade -y
 
