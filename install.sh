@@ -12,8 +12,7 @@ sudo chmod 777 /usr/share/icons/
 tar xvzf xf/wallpapers1.tar.gz
 cp wallpapers1/* /usr/share/backgrounds/
 tar xvzf xf/wallpapers2.tar.gz
-cp wallpapers2/* /usr/share/backgrounds/
-cp xf/wallpapers2/* /usr/share/backgrounds/xfce/
+cp wallpapers2/* /usr/share/backgrounds/xfce/
 
 sudo apt update
 
