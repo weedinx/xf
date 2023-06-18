@@ -35,12 +35,6 @@ sudo apt install -y lightdm lightdm-gtk-greeter
 
 sudo apt update
 
-sudo apt install -y qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon
-sudo apt update
-sudo apt install -y virt-manager
-sudo systemctl enable --now libvirtd
-sudo systemctl start libvirtd
-
 sudo apt install -y virtualbox-qt deepin-deb-installer cockpit
 sudo systemctl enable --now cockpit.socket
 sudo usermod -aG sudo and
@@ -54,7 +48,20 @@ sudo apt install -y ./code*.deb
 wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb
 sudo apt install -y ./balena-etcher*.deb
 
-mv /etc/apt/apt.conf /etc/apt/apt.conf.a 
+mv /etc/apt/apt.conf /etc/apt/apt.conf.a
+
+sudo apt install -y network-manager-gnome
+
+sudo apt install -y qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon
+sudo apt update
+sudo apt install -y virt-manager
+#sudo usermod -G libvirt -a and
+sudo usermod -aG kvm and
+sudo usermod -aG libvirt and
+sudo systemctl enable --now libvirtd
+sudo systemctl start libvirtd
+
+mv /etc/apt/apt.conf.a /etc/apt/apt.conf
 
 sudo apt update && sudo apt upgrade -y
 
