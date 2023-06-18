@@ -88,6 +88,9 @@ sudo apt install -y ./code*.deb
 
 rm -rf xf/
 
+timedatectl set-timezone America/Sao_Paulo
+systemctl restart systemd-timedated
+
 sudo apt update && sudo apt upgrade -y
 
 sudo shutdown -r now
