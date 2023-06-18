@@ -18,9 +18,11 @@ cp xf/wallpapers2/* /usr/share/backgrounds/xfce/
 sudo apt update
 
 cp xf/apt.conf /etc/apt/
-tar xvzf xf/kora.tar.gz
-cp -R kora/ /usr/share/icons/
-sudo chmod 777 /usr/share/icons/kora/
+wget https://download1589.mediafire.com/utnfkurjw31g6hKwoC18W9ZLfQwA3xJwdfbseEleliVuKCvfjACHCJR6TxOF003z34rDLm2o2BMoxXA3ITIK6rTbsDVbGGbuGCDcNqA-mShQHWjnPjurhE3XJOkk1oz92z-kT_6lZJ2tqlInmNZNwbw3M7DL6KerPlkhr36G6-H7bfY/fyus8cwn9rqv68a/kora.zip
+cp kora.zip /usr/share/icons/
+unzip kora.zip --directory /usr/share/icons/
+
+#sudo chmod 777 /usr/share/icons/kora/
 
 #sudo apt install -y network-manager-gnome
 
