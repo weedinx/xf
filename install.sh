@@ -34,6 +34,8 @@ sudo apt install -y libreoffice-l10n-pt-br -y
 
 mv /etc/apt/apt.conf /etc/apt/apt.conf.a
 
+sudo apt update
+
 sudo apt install -y gvfs gvfs-fuse gvfs-backends udisks2
 sudo apt install -y dkms curl git htop viewnior cpu-x gpick yaru-theme-gtk greybird-gtk-theme pavucontrol pulseaudio-utils pulseaudio cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip
 #yaru-theme-icon
@@ -73,6 +75,8 @@ wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher
 sudo apt install -y ./balena-etcher*.deb
 
 mv /etc/apt/apt.conf.a /etc/apt/apt.conf
+
+sudo apt update
 
 sudo apt install flatpak
 sudo add-apt-repository ppa:flatpak/stable
