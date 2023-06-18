@@ -67,6 +67,15 @@ sudo systemctl start libvirtd
 
 mv /etc/apt/apt.conf.a /etc/apt/apt.conf
 
+sudo apt install flatpak
+sudo add-apt-repository ppa:flatpak/stable
+sudo apt update
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+sudo apt update
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo apt update
+
 sudo apt update && sudo apt upgrade -y
 
 sudo shutdown -r now
