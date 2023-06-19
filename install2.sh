@@ -6,8 +6,11 @@ sudo apt install -y zip unzip tar gzip p7zip-full p7zip-rar
 
 cp xf/apt.conf /etc/apt/
 
+sudo apt update
+
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
-sudo apt install -y xfce4 xfce4-terminal thunar-archive-plugin xfce4-whiskermenu-plugin thunar-volman
+sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 lxtask xfce4-screenshooter xfce4-power-manager gtk2-engines policykit-1 gtk2-engines-pixbuf
+sudo apt install -y xarchiver thunar-data thunar-volman thunar thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin
 
 #sudo apt install -y libreoffice-writer libreoffice-calc libreoffice-gtk3 -y
 #sudo apt install -y libreoffice-l10n-pt-br -y
@@ -16,12 +19,8 @@ mv /etc/apt/apt.conf /etc/apt/apt.conf.a
 
 sudo apt update
 
-#sudo apt install -y xarchiver thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin
-
-#sudo apt update
-
 sudo apt install -y gvfs gvfs-fuse gvfs-backends udisks2
-sudo apt install -y dkms curl git htop viewnior cpu-x gpick yaru-theme-gtk greybird-gtk-theme pavucontrol pulseaudio cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip
+sudo apt install -y dkms curl git htop viewnior cpu-x gpick yaru-theme-gtk greybird-gtk-theme pulseaudio cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip
 sudo apt update
 
 sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman libgtk-3-dev
