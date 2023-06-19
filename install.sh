@@ -11,16 +11,14 @@ sudo chmod 777 /usr/share/icons/
 
 sudo apt update
 
-tar xvzf xf/wallpapers1.tar.gz
-cp wallpapers1/* /usr/share/backgrounds/xfce/
-tar xvzf xf/wallpapers2.tar.gz
-cp wallpapers2/* /usr/share/backgrounds/xfce/
+tar -xvf xf/wallpapers1.tar.gz -C /usr/share/icons/
+tar -xvf xf/wallpapers1.tar.gz -C /usr/share/icons/
 
 sudo apt update
 
 cp xf/apt.conf /etc/apt/
+
 wget https://download1589.mediafire.com/utnfkurjw31g6hKwoC18W9ZLfQwA3xJwdfbseEleliVuKCvfjACHCJR6TxOF003z34rDLm2o2BMoxXA3ITIK6rTbsDVbGGbuGCDcNqA-mShQHWjnPjurhE3XJOkk1oz92z-kT_6lZJ2tqlInmNZNwbw3M7DL6KerPlkhr36G6-H7bfY/fyus8cwn9rqv68a/kora.zip
-cp kora.zip /usr/share/icons/
 unzip kora.zip --directory /usr/share/icons/
 
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
@@ -64,6 +62,7 @@ sudo usermod -aG kvm and
 sudo usermod -aG libvirt and
 sudo systemctl enable --now libvirtd
 sudo systemctl start libvirtd
+sudo apt --fix-broken install
 
 sudo apt update
 sudo apt install -y linux-firmware
@@ -71,25 +70,31 @@ sudo apt update
 
 wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb -O balena.deb
 sudo dpkg -i balena.deb
+sudo apt --fix-broken install
 
 sudo apt update
 
 sudo apt install flatpak
+sudo apt --fix-broken install
 sudo add-apt-repository ppa:flatpak/stable
 sudo apt update
 sudo apt install flatpak
 sudo apt install gnome-software-plugin-flatpak
 sudo apt update
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo apt --fix-broken install
 sudo apt update
+
 
 mv /etc/apt/apt.conf.a /etc/apt/apt.conf
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
 sudo dpkg -i chrome.deb
+sudo apt --fix-broken install
 
 wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb -O vscode.deb
 sudo dpkg -i vscode.deb
+sudo apt --fix-broken install
 
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
