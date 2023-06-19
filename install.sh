@@ -11,15 +11,15 @@ sudo chmod 777 /usr/share/icons/
 
 sudo apt update
 
-tar -xvf xf/wallpapers1.tar.gz -C /usr/share/icons/
-tar -xvf xf/wallpapers2.tar.gz -C /usr/share/icons/
+tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/xfce/
+tar -xvf xf/wallpapers2.tar.gz -C /usr/share/backgrounds/xfce/
 
 sudo apt update
 
 cp xf/apt.conf /etc/apt/
 
 wget https://download1589.mediafire.com/utnfkurjw31g6hKwoC18W9ZLfQwA3xJwdfbseEleliVuKCvfjACHCJR6TxOF003z34rDLm2o2BMoxXA3ITIK6rTbsDVbGGbuGCDcNqA-mShQHWjnPjurhE3XJOkk1oz92z-kT_6lZJ2tqlInmNZNwbw3M7DL6KerPlkhr36G6-H7bfY/fyus8cwn9rqv68a/kora.zip
-unzip kora.zip --directory /usr/share/icons/
+unzip kora.zip /usr/share/icons/
 
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
 sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 xfce4-taskmanager xfce4-screenshooter xfce4-power-manager gtk2-engines policykit-1 gtk2-engines-pixbuf thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin xarchiver
