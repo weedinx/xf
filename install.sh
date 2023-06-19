@@ -89,7 +89,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -
 sudo dpkg -i chrome.deb
 
 wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb -O vscode.deb
-sudo dpkg -i chrome.deb
+sudo dpkg -i vscode.deb
 
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
