@@ -19,6 +19,7 @@ mv /etc/apt/apt.conf /etc/apt/apt.conf.a
 
 sudo apt update
 
+sudo apt install -y nm-tray
 sudo apt install -y gvfs gvfs-fuse gvfs-backends udisks2
 sudo apt install -y dkms curl git htop viewnior cpu-x gpick yaru-theme-gtk greybird-gtk-theme pulseaudio cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip
 sudo apt update
@@ -32,8 +33,6 @@ sudo apt install -y virtualbox
 sudo apt install -y deepin-deb-installer cockpit
 sudo systemctl enable --now cockpit.socket
 sudo usermod -aG sudo and
-
-sudo apt update
 
 #sudo apt install -y network-manager-gnome
 
