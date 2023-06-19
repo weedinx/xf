@@ -27,6 +27,7 @@ sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-termina
 
 sudo apt install -y libreoffice-writer libreoffice-gtk3 -y
 sudo apt install -y libreoffice-l10n-pt-br -y
+
 mv /etc/apt/apt.conf /etc/apt/apt.conf.a
 
 sudo apt update
