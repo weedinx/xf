@@ -12,7 +12,7 @@ sudo chmod 777 /usr/share/icons/
 sudo apt update
 
 tar -xvf xf/wallpapers1.tar.gz -C /usr/share/icons/
-tar -xvf xf/wallpapers1.tar.gz -C /usr/share/icons/
+tar -xvf xf/wallpapers2.tar.gz -C /usr/share/icons/
 
 sudo apt update
 
