@@ -82,9 +82,9 @@ tar -xvf xf/wallpapers2.tar.gz -C /usr/share/backgrounds/xfce/
 #https://download847.mediafire.com/blo2x1xe211goNdXcm_OR6xJTipOcelw36BAlRB9esc9Y7z4Wkg-lfKMeFvF1kOCMwpEaPbMqCb4yAlp5tQoESQgxjYDWsLTPPPyZnrNpHY8dLaXJm8YZYc34QhU7R3gT3Skl-_5WdRj5D5BSu4W5W85T4erpc19vpKMoa806emz2AI/uhiqf4jf8ldlm33/kora.tar.gz
 #tar -xvf kora.tar.gz -C /usr/share/icons/
 
-sudo apt update
-
 mv /etc/apt/apt.conf.a /etc/apt/apt.conf
+
+sudo apt update
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
 sudo dpkg -i chrome.deb
