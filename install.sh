@@ -7,13 +7,16 @@ sudo apt install -y zip unzip tar gzip p7zip-full p7zip-rar
 sudo chmod 777 /usr/share/themes/
 sudo chmod 777 /usr/share/backgrounds/
 sudo chmod 777 /usr/share/backgrounds/xfce/
+
 sudo chmod 777 /usr/share/icons/
 
 sudo apt update
 
 tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/xfce/
 tar -xvf xf/wallpapers2.tar.gz -C /usr/share/backgrounds/xfce/
-tar -xvf xf/kora.tar.gz -C /usr/share/icons/
+
+https://download847.mediafire.com/blo2x1xe211goNdXcm_OR6xJTipOcelw36BAlRB9esc9Y7z4Wkg-lfKMeFvF1kOCMwpEaPbMqCb4yAlp5tQoESQgxjYDWsLTPPPyZnrNpHY8dLaXJm8YZYc34QhU7R3gT3Skl-_5WdRj5D5BSu4W5W85T4erpc19vpKMoa806emz2AI/uhiqf4jf8ldlm33/kora.tar.gz
+tar -xvf kora.tar.gz -C /usr/share/icons/
 
 sudo apt update
 
