@@ -7,7 +7,7 @@ sudo apt install -y zip unzip tar gzip p7zip-full p7zip-rar
 cp xf/apt.conf /etc/apt/
 
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
-sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 xfce4-taskmanager xfce4-screenshooter xfce4-power-manager gtk2-engines policykit-1 gtk2-engines-pixbuf
+sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 lxtask xfce4-screenshooter xfce4-power-manager gtk2-engines policykit-1 gtk2-engines-pixbuf
 
 sudo apt install -y libreoffice-writer libreoffice-calc libreoffice-gtk3 -y
 sudo apt install -y libreoffice-l10n-pt-br -y
