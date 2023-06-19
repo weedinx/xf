@@ -9,8 +9,10 @@ sudo chmod 777 /usr/share/backgrounds/
 sudo chmod 777 /usr/share/backgrounds/xfce/
 sudo chmod 777 /usr/share/icons/
 
+sudo apt update
+
 tar xvzf xf/wallpapers1.tar.gz
-cp wallpapers1/* /usr/share/backgrounds/
+cp wallpapers1/* /usr/share/backgrounds/xfce/
 tar xvzf xf/wallpapers2.tar.gz
 cp wallpapers2/* /usr/share/backgrounds/xfce/
 
@@ -20,10 +22,6 @@ cp xf/apt.conf /etc/apt/
 wget https://download1589.mediafire.com/utnfkurjw31g6hKwoC18W9ZLfQwA3xJwdfbseEleliVuKCvfjACHCJR6TxOF003z34rDLm2o2BMoxXA3ITIK6rTbsDVbGGbuGCDcNqA-mShQHWjnPjurhE3XJOkk1oz92z-kT_6lZJ2tqlInmNZNwbw3M7DL6KerPlkhr36G6-H7bfY/fyus8cwn9rqv68a/kora.zip
 cp kora.zip /usr/share/icons/
 unzip kora.zip --directory /usr/share/icons/
-
-#sudo chmod 777 /usr/share/icons/kora/
-
-#sudo apt install -y network-manager-gnome
 
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
 sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 xfce4-taskmanager xfce4-screenshooter xfce4-power-manager gtk2-engines policykit-1 gtk2-engines-pixbuf thunar-data thunar-volman thunar xfce4-terminal thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin xarchiver
@@ -74,8 +72,6 @@ sudo apt update
 wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb -O balena.deb
 sudo dpkg -i balena.deb
 
-mv /etc/apt/apt.conf.a /etc/apt/apt.conf
-
 sudo apt update
 
 sudo apt install flatpak
@@ -86,6 +82,8 @@ sudo apt install gnome-software-plugin-flatpak
 sudo apt update
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo apt update
+
+mv /etc/apt/apt.conf.a /etc/apt/apt.conf
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
 sudo dpkg -i chrome.deb
