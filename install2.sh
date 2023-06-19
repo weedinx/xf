@@ -4,6 +4,8 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y zip unzip tar gzip p7zip-full p7zip-rar
 
+sudo apt install -y nm-tray
+
 cp xf/apt.conf /etc/apt/
 
 sudo apt update
@@ -19,7 +21,6 @@ mv /etc/apt/apt.conf /etc/apt/apt.conf.a
 
 sudo apt update
 
-sudo apt install -y nm-tray
 sudo apt install -y gvfs gvfs-fuse gvfs-backends udisks2
 sudo apt install -y dkms curl git htop viewnior cpu-x gpick yaru-theme-gtk greybird-gtk-theme pulseaudio cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip
 sudo apt update
