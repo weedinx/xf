@@ -4,22 +4,6 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y zip unzip tar gzip p7zip-full p7zip-rar
 
-sudo chmod 777 /usr/share/themes/
-sudo chmod 777 /usr/share/backgrounds/
-sudo chmod 777 /usr/share/backgrounds/xfce/
-
-sudo chmod 777 /usr/share/icons/
-
-sudo apt update
-
-tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/xfce/
-tar -xvf xf/wallpapers2.tar.gz -C /usr/share/backgrounds/xfce/
-
-https://download847.mediafire.com/blo2x1xe211goNdXcm_OR6xJTipOcelw36BAlRB9esc9Y7z4Wkg-lfKMeFvF1kOCMwpEaPbMqCb4yAlp5tQoESQgxjYDWsLTPPPyZnrNpHY8dLaXJm8YZYc34QhU7R3gT3Skl-_5WdRj5D5BSu4W5W85T4erpc19vpKMoa806emz2AI/uhiqf4jf8ldlm33/kora.tar.gz
-tar -xvf kora.tar.gz -C /usr/share/icons/
-
-sudo apt update
-
 cp xf/apt.conf /etc/apt/
 
 sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
@@ -88,6 +72,21 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 sudo apt --fix-broken install
 sudo apt update
 
+sudo chmod 777 /usr/share/themes/
+sudo chmod 777 /usr/share/backgrounds/
+sudo chmod 777 /usr/share/backgrounds/xfce/
+
+sudo chmod 777 /usr/share/icons/
+
+sudo apt update
+
+tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/xfce/
+tar -xvf xf/wallpapers2.tar.gz -C /usr/share/backgrounds/xfce/
+
+https://download847.mediafire.com/blo2x1xe211goNdXcm_OR6xJTipOcelw36BAlRB9esc9Y7z4Wkg-lfKMeFvF1kOCMwpEaPbMqCb4yAlp5tQoESQgxjYDWsLTPPPyZnrNpHY8dLaXJm8YZYc34QhU7R3gT3Skl-_5WdRj5D5BSu4W5W85T4erpc19vpKMoa806emz2AI/uhiqf4jf8ldlm33/kora.tar.gz
+tar -xvf kora.tar.gz -C /usr/share/icons/
+
+sudo apt update
 
 mv /etc/apt/apt.conf.a /etc/apt/apt.conf
 
