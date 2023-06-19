@@ -8,7 +8,7 @@ cp xf/apt.conf /etc/apt/
 
 sudo apt update
 
-sudo apt install -y xserver-xorg xserver-xorg-core xfonts-base xinit x11-xserver-utils
+sudo apt install -y xserver-xorg-core xfonts-base xinit x11-xserver-utils xserver-xorg
 sudo apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 lxtask xfce4-screenshooter xfce4-power-manager gtk2-engines policykit-1 gtk2-engines-pixbuf
 sudo apt install -y xarchiver thunar-data thunar-volman thunar thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin
 
