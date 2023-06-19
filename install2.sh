@@ -35,8 +35,6 @@ sudo apt install -y deepin-deb-installer cockpit
 sudo systemctl enable --now cockpit.socket
 sudo usermod -aG sudo and
 
-#sudo apt install -y network-manager-gnome
-
 sudo apt update
 
 sudo apt install -y qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon
@@ -94,6 +92,10 @@ sudo apt --fix-broken install
 wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb -O vscode.deb
 sudo dpkg -i vscode.deb
 sudo apt --fix-broken install
+
+sudo apt install -y network-manager-gnome
+
+sudo apt update
 
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
