@@ -4,7 +4,7 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y zip unzip tar gzip p7zip-full p7zip-rar
 
-sudo apt install -y nm-tray
+#sudo apt install -y nm-tray
 
 cp xf/apt.conf /etc/apt/
 
@@ -104,3 +104,5 @@ systemctl mask systemd-networkd-wait-online.service
 sudo apt update && sudo apt upgrade -y
 
 sudo shutdown -r now
+
+#sudo apt install -y network-manager-config-connectivity-ubuntu
