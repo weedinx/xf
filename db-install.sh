@@ -4,7 +4,7 @@ apt update && sudo apt upgrade -y
 
 apt install firmware-linux-nonfree firmware-iwlwifi firmware-atheros firmware-realtek -y
 
-apt install -y zip unzip tar gzip p7zip-full p7zip-rar
+apt install -y zip unzip tar gzip
 
 cp xf/apt.conf /etc/apt/
 
@@ -30,14 +30,6 @@ apt install -y lightdm lightdm-gtk-greeter
 
 apt update
 
-apt install -y virtualbox
-apt install -y virtualbox-ext-pack
-apt install -y deepin-deb-installer cockpit
-systemctl enable --now cockpit.socket
-sudo usermod -aG sudo and
-
-sudo apt update
-
 apt install -y qemu-system libvirt-daemon-system
 usermod -aG kvm and
 usermod -aG libvirt and
@@ -46,10 +38,6 @@ apt install -y virt-manager
 systemctl enable --now libvirtd
 systemctl start libvirtd
 apt --fix-broken install
-
-apt update
-apt install -y linux-firmware
-apt update
 
 wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb -O balena.deb
 dpkg -i balena.deb
@@ -73,8 +61,8 @@ chmod 777 /usr/share/icons/
 
 apt update
 
-tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/xfce/
-tar -xvf xf/wallpapers2.tar.gz -C /usr/share/backgrounds/xfce/
+tar -xvf xf/wallpapers1.tar.gz -C /usr/share/images/desktop-base/
+tar -xvf xf/wallpapers2.tar.gz -C /usr/share/images/desktop-base/
 
 #https://download847.mediafire.com/blo2x1xe211goNdXcm_OR6xJTipOcelw36BAlRB9esc9Y7z4Wkg-lfKMeFvF1kOCMwpEaPbMqCb4yAlp5tQoESQgxjYDWsLTPPPyZnrNpHY8dLaXJm8YZYc34QhU7R3gT3Skl-_5WdRj5D5BSu4W5W85T4erpc19vpKMoa806emz2AI/uhiqf4jf8ldlm33/kora.tar.gz
 #tar -xvf kora.tar.gz -C /usr/share/icons/
