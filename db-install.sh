@@ -58,6 +58,8 @@ chmod 777 /usr/share/themes/
 chmod 777 /usr/share/backgrounds/
 chmod 777 /usr/share/backgrounds/xfce/
 chmod 777 /usr/share/icons/
+chmod 777 /usr/share/images/desktop-base/
+
 
 apt update
 
