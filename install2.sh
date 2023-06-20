@@ -4,7 +4,7 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y zip unzip tar gzip p7zip-full p7zip-rar
 
-#sudo apt install -y nm-tray
+sudo apt install -y nm-tray
 
 cp xf/apt.conf /etc/apt/
 
@@ -93,7 +93,7 @@ wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03
 sudo dpkg -i vscode.deb
 sudo apt --fix-broken install
 
-sudo apt install -y network-manager-gnome
+#sudo apt install -y network-manager-gnome
 
 sudo apt update
 
@@ -107,4 +107,3 @@ sudo apt update && sudo apt upgrade -y
 
 sudo shutdown -r now
 
-#sudo apt install -y network-manager-config-connectivity-ubuntu
