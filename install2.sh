@@ -22,7 +22,8 @@ mv /etc/apt/apt.conf /etc/apt/apt.conf.a
 sudo apt update
 
 sudo apt install -y gvfs gvfs-fuse gvfs-backends udisks2
-sudo apt install -y dkms curl git htop viewnior cpu-x gpick yaru-theme-gtk greybird-gtk-theme pulseaudio cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip
+sudo apt install -y dkms curl git htop viewnior cpu-x gpick greybird-gtk-theme pulseaudio cups system-config-printer printer-driver-gutenprint printer-driver-escpr cups-client hplip
+snap install yaru-colors -y
 sudo apt update
 
 sudo apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atril blueman libgtk-3-dev
