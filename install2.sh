@@ -4,8 +4,6 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y zip unzip tar gzip p7zip-full p7zip-rar
 
-sudo apt install -y nm-tray
-
 cp xf/apt.conf /etc/apt/
 
 sudo apt update
@@ -16,6 +14,8 @@ sudo apt install -y xarchiver thunar-data thunar-volman thunar thunar-media-tags
 
 sudo apt install -y libreoffice-writer libreoffice-calc libreoffice-gtk3 -y
 sudo apt install -y libreoffice-l10n-pt-br -y
+
+sudo apt install -y nm-tray
 
 mv /etc/apt/apt.conf /etc/apt/apt.conf.a
 
