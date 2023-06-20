@@ -2,6 +2,8 @@
 
 sudo apt update && sudo apt upgrade -y
 
+apt install firmware-linux-nonfree firmware-iwlwifi firmware-atheros firmware-realtek -y
+
 sudo apt install -y zip unzip tar gzip p7zip-full p7zip-rar
 
 cp xf/apt.conf /etc/apt/
