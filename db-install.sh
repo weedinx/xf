@@ -81,7 +81,7 @@ apt --fix-broken install
 
 apt update
 
-#apt install -y nm-tray
+apt install -y nm-tray
 
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
