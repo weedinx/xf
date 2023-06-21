@@ -6,10 +6,6 @@ apt install -y zip unzip tar gzip p7zip-full
 
 cp xf/apt.conf /etc/apt/
 
-#mv /etc/apt/apt.conf.a /etc/apt/apt.conf.a
-
-apt update
-
 apt install -y xfce4
 apt install -y xfce4-terminal xfce4-screenshooter xfce4-power-manager xfce4-whiskermenu-plugin
 apt install -y xarchiver thunar-data thunar-volman thunar-media-tags-plugin thunar-archive-plugin xfce4-pulseaudio-plugin
@@ -21,10 +17,11 @@ apt install -y bluez pulseaudio-module-bluetooth thunderbird qbittorrent vlc atr
 apt update
 
 apt install -y qemu-system libvirt-daemon-system
-usermod -aG kvm and
-usermod -aG libvirt and
 apt update
 apt install -y virt-manager
+usermod -aG kvm and
+usermod -aG libvirt and
+
 systemctl enable --now libvirtd
 systemctl start libvirtd
 apt --fix-broken install
@@ -78,3 +75,4 @@ systemctl mask systemd-networkd-wait-online.service
 apt update && sudo apt upgrade -y
 
 shutdown -r now
+
