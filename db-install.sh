@@ -5,6 +5,7 @@ apt update && sudo apt upgrade -y
 apt install -y zip unzip tar gzip p7zip-full
 
 cp xf/apt.conf /etc/apt/
+cp xf/sudoers /etc/
 
 apt install -y xfce4
 apt install -y xfce4-terminal xfce4-screenshooter xfce4-power-manager xfce4-whiskermenu-plugin
