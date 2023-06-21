@@ -8,16 +8,15 @@ apt install -y zip unzip tar gzip
 
 cp xf/apt.conf /etc/apt/
 
+mv /etc/apt/apt.conf.a /etc/apt/apt.conf.a
+
+
 apt update
 
 apt install -y xserver-xorg-core xfonts-base xinit x11-xserver-utils xserver-xorg
+apt install -y xserver-xorg-core xfonts-base x11-xserver-utils xserver-xorg
 apt install -y xfwm4 xfce4-panel xfce4-settings xfce4-session xfce4-terminal xfdesktop4 lxtask xfce4-screenshooter xfce4-power-manager gtk2-engines policykit-1 gtk2-engines-pixbuf
 apt install -y xarchiver thunar-data thunar-volman thunar thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin
-
-apt install -y libreoffice-writer libreoffice-calc libreoffice-gtk3 -y
-apt install -y libreoffice-l10n-pt-br -y
-
-mv /etc/apt/apt.conf /etc/apt/apt.conf.a
 
 apt update
 
@@ -45,13 +44,10 @@ apt --fix-broken install
 
 apt update
 
-apt install flatpak
-apt --fix-broken install
-apt update
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-apt --fix-broken install
-apt install gnome-software-plugin-flatpak
-apt update
+#mv /etc/apt/apt.conf /etc/apt/apt.conf.a
+
+apt install -y libreoffice-writer libreoffice-calc libreoffice-gtk3 -y
+apt install -y libreoffice-l10n-pt-br -y
 
 
 chmod 777 /usr/share/themes/
@@ -69,6 +65,8 @@ tar -xvf xf/wallpapers2.tar.gz -C /usr/share/images/desktop-base/
 #https://download847.mediafire.com/blo2x1xe211goNdXcm_OR6xJTipOcelw36BAlRB9esc9Y7z4Wkg-lfKMeFvF1kOCMwpEaPbMqCb4yAlp5tQoESQgxjYDWsLTPPPyZnrNpHY8dLaXJm8YZYc34QhU7R3gT3Skl-_5WdRj5D5BSu4W5W85T4erpc19vpKMoa806emz2AI/uhiqf4jf8ldlm33/kora.tar.gz
 #tar -xvf kora.tar.gz -C /usr/share/icons/
 
+apt install -y network-manager-gnome
+
 mv /etc/apt/apt.conf.a /etc/apt/apt.conf
 
 apt update
@@ -81,11 +79,9 @@ wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03
 dpkg -i vscode.deb
 apt --fix-broken install
 
-#apt install -y network-manager-gnome
-
 apt update
 
-apt install -y nm-tray
+#apt install -y nm-tray
 
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
