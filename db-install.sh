@@ -6,9 +6,9 @@ apt install firmware-linux-nonfree firmware-iwlwifi firmware-atheros firmware-re
 
 apt install -y zip unzip tar gzip
 
-cp xf/apt.conf /etc/apt/
+#cp xf/apt.conf /etc/apt/
 
-mv /etc/apt/apt.conf.a /etc/apt/apt.conf.a
+#mv /etc/apt/apt.conf.a /etc/apt/apt.conf.a
 
 
 apt update
@@ -38,9 +38,9 @@ systemctl enable --now libvirtd
 systemctl start libvirtd
 apt --fix-broken install
 
-wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb -O balena.deb
-dpkg -i balena.deb
-apt --fix-broken install
+#wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb -O balena.deb
+#dpkg -i balena.deb
+#apt --fix-broken install
 
 apt update
 
@@ -65,9 +65,9 @@ tar -xvf xf/wallpapers2.tar.gz -C /usr/share/images/desktop-base/
 #https://download847.mediafire.com/blo2x1xe211goNdXcm_OR6xJTipOcelw36BAlRB9esc9Y7z4Wkg-lfKMeFvF1kOCMwpEaPbMqCb4yAlp5tQoESQgxjYDWsLTPPPyZnrNpHY8dLaXJm8YZYc34QhU7R3gT3Skl-_5WdRj5D5BSu4W5W85T4erpc19vpKMoa806emz2AI/uhiqf4jf8ldlm33/kora.tar.gz
 #tar -xvf kora.tar.gz -C /usr/share/icons/
 
-apt install -y network-manager-gnome
+#apt install -y network-manager-gnome
 
-mv /etc/apt/apt.conf.a /etc/apt/apt.conf
+#mv /etc/apt/apt.conf.a /etc/apt/apt.conf
 
 apt update
 
@@ -75,9 +75,9 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -
 dpkg -i chrome.deb
 apt --fix-broken install
 
-wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb -O vscode.deb
-dpkg -i vscode.deb
-apt --fix-broken install
+#wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb -O vscode.deb
+#dpkg -i vscode.deb
+#apt --fix-broken install
 
 apt update
 
