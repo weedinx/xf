@@ -58,7 +58,8 @@ apt install -y \
     system-config-printer \
     printer-driver-gutenprint \
     printer-driver-escpr \
-    cups-client hplip
+    cups-client \
+    hplip
     
 apt install -y \
     bluez \
@@ -68,6 +69,7 @@ apt install -y \
     vlc \
     atril \
     blueman \
+    firefox-esr \
     libgtk-3-dev
     
 apt install -y \
@@ -78,8 +80,8 @@ apt update
 apt install -y \
     libreoffice-writer \
     libreoffice-calc \
-    libreoffice-gtk3 -y \
-    libreoffice-l10n-pt-br -y
+    libreoffice-gtk3 \
+    libreoffice-l10n-pt-br
 
 
 chmod 777 /usr/share/themes/
