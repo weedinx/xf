@@ -10,9 +10,9 @@ cp xf/apt.conf /etc/apt/
 
 apt update
 
-apt install -y xserver-xorg-core x11-xserver-utils xserver-xorg xinit
-apt install -y xserver-xorg-core xfonts-base xinit x11-xserver-utils xserver-xorg
-apt install -y xfce 
+apt install -y xserver-xorg-core x11-xserver-utils xserver-xorg
+#apt install -y xserver-xorg-core xfonts-base xinit x11-xserver-utils xserver-xorg
+apt install -y xfce4
 apt install -y xfce4-terminal xfce4-screenshooter xfce4-power-manager
 apt install -y xarchiver thunar-data thunar-volman thunar-media-tags-plugin thunar-archive-plugin xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin
 
@@ -41,9 +41,9 @@ systemctl enable --now libvirtd
 systemctl start libvirtd
 apt --fix-broken install
 
-wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb -O balena.deb
-dpkg -i balena.deb
-apt --fix-broken install
+#wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb -O balena.deb
+#dpkg -i balena.deb
+#apt --fix-broken install
 
 apt update
 
@@ -75,19 +75,19 @@ mv /etc/apt/apt.conf.a /etc/apt/apt.conf
 
 apt update
 
+apt install -y network-manager-gnome
+
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
 dpkg -i chrome.deb
 apt --fix-broken install
 
-wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb -O vscode.deb
-dpkg -i vscode.deb
-apt --fix-broken install
-
-#apt install -y network-manager-gnome
+#wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb -O vscode.deb
+#dpkg -i vscode.deb
+#apt --fix-broken install
 
 apt update
 
-apt install -y nm-tray
+#apt install -y nm-tray
 
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
