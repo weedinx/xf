@@ -9,9 +9,10 @@ apt install -y
    firmware-realtek
 
 apt install -y \
-   xserver-xorg-core
-   xserver-xorg-video-fbdev
-   xserver-xorg
+   xserver-xorg-core \
+   xserver-xorg-video-fbdev \
+   xserver-xorg \
+   xinit
 
 apt install -y \
     zip \ 
