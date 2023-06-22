@@ -3,6 +3,9 @@
 apt update && apt -y upgrade
 
 apt install -y \
+   xserver-xorg-video-intel
+
+apt install -y \
     zip \ 
     unzip \
     tar \
@@ -51,7 +54,9 @@ apt install -y \
     viewnior \
     cpu-x \
     gpick \
-    greybird-gtk-theme 
+    greybird-gtk-theme \
+    qt5tc \
+    adwaita-qt
 
 apt install -y \
     cups \
@@ -82,7 +87,9 @@ apt install -y \
     libreoffice-calc \
     libreoffice-gtk3 \
     libreoffice-l10n-pt-br
-
+    
+apt install -y \
+    lightdm
 
 chmod 777 /usr/share/themes/
 chmod 777 /usr/share/backgrounds/
