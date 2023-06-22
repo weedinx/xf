@@ -47,15 +47,6 @@ apt install -y \
     x11-xserver-utils
     
 #mv etc/apt/apt.conf /etc/apt/apt.conf.a
-#rm -rf /etc/apt/apt.conf
-
-apt update
-    
-apt install -y \
-    gvfs \
-    gvfs-fuse \
-    gvfs-backends \
-    udisks2
     
 apt install -y \
     dkms \
@@ -69,16 +60,8 @@ apt install -y \
     qt5tc \
     adwaita-qt \
     firefox-esr
-
-
-    
-apt install -y \
-    network-manager-gnome
     
 apt update
-
-apt install -y \
-    lightdm
 
 chmod 777 /usr/share/themes/
 chmod 777 /usr/share/backgrounds/
@@ -95,6 +78,16 @@ tar -xvf xf/wallpapers2.tar.gz -C /usr/share/images/desktop-base/
 
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
+
+rm -rf /etc/apt/apt.conf
+
+apt update
+
+apt install -y \
+    network-manager-gnome
+
+apt install -y \
+    lightdm
 
 systemctl disable systemd-networkd-wait-online.service
 systemctl mask systemd-networkd-wait-online.service
