@@ -43,7 +43,6 @@ apt install -y \
     xfce4-whiskermenu-plugin \
     x11-xserver-utils \
     tumbler \
-    tumbler-plugins-extra
 
 apt install -y \
     lightdm \
