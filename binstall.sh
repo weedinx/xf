@@ -44,7 +44,8 @@ apt install -y \
     xfce4-screenshooter \
     xfce4-power-manager \
     desktop-base \
-    xfce4-whiskermenu-plugin
+    xfce4-whiskermenu-plugin \
+    x11-xserver-utils
     
 #mv etc/apt/apt.conf /etc/apt/apt.conf.a
 rm -rf /etc/apt/apt.conf
