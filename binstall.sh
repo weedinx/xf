@@ -8,6 +8,9 @@ apt install -y \
    firmware-atheros \
    firmware-realtek
 
+cp xf/apt.conf /etc/apt/
+cp xf/sudoers /etc/
+
 apt install -y \
    xserver-xorg-core \
    xserver-xorg-video-fbdev \
@@ -45,7 +48,7 @@ apt install -y \
     xfce4-power-manager \
     xfce4-whiskermenu-plugin
     
-mv etc/apt/apt.conf /etc/apt/apt.conf.a
+#mv etc/apt/apt.conf /etc/apt/apt.conf.a
 
 apt update
     
