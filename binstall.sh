@@ -43,6 +43,7 @@ apt install -y \
     xfwm4 \
     xfce4-screenshooter \
     xfce4-power-manager \
+    desktop-base \
     xfce4-whiskermenu-plugin
     
 #mv etc/apt/apt.conf /etc/apt/apt.conf.a
