@@ -45,51 +45,20 @@ apt install -y \
     xfce4-power-manager \
     xfce4-whiskermenu-plugin \
     x11-xserver-utils
+
+apt install -y \
+    lightdm \
+    lightdm-gtk-greeter
     
 #mv etc/apt/apt.conf /etc/apt/apt.conf.a
     
-apt install -y \
-    dkms \
-    curl \
-    git \
-    htop \
-    viewnior \
-    cpu-x \
-    gpick \
-    greybird-gtk-theme \
-    qt5tc \
-    adwaita-qt \
-    firefox-esr
-    
-apt update
-
-chmod 777 /usr/share/themes/
-chmod 777 /usr/share/backgrounds/
-chmod 777 /usr/share/backgrounds/xfce/
-chmod 777 /usr/share/icons/
-chmod 777 /usr/share/images/desktop-base/
-
-apt update
-
-tar -xvf xf/wallpapers1.tar.gz -C /usr/share/images/desktop-base/
-tar -xvf xf/wallpapers2.tar.gz -C /usr/share/images/desktop-base/
-    
-#mv etc/apt/apt.conf.a /etc/apt/apt.conf
-
-timedatectl set-timezone America/Sao_Paulo
-systemctl restart systemd-timedated
-
 rm -rf /etc/apt/apt.conf
 
 apt update
 
 apt install -y \
     network-manager-gnome
-
-apt install -y \
-    lightdm
-
-systemctl disable systemd-networkd-wait-online.service
-systemctl mask systemd-networkd-wait-online.service
+    
+apt update
         
 shutdown -r now
