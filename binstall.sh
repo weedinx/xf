@@ -8,9 +8,6 @@ apt install -y \
    firmware-atheros \
    firmware-realtek
 
-cp xf/apt.conf /etc/apt/
-cp xf/sudoers /etc/
-
 apt install -y \
    xorg \
    xinit
@@ -25,6 +22,8 @@ apt install -y \
 cp xf/apt.conf /etc/apt/
 cp xf/sudoers /etc/
 
+cp xf/apt.conf /etc/apt/
+cp xf/sudoers /etc/
 
 apt install -y \
     libxfce4ui-utils \
