@@ -2,7 +2,7 @@
 
 apt update && apt -y upgrade
 
-apt install -y
+apt install -y \
    firmware-linux-nonfree \
    firmware-iwlwifi \
    firmware-atheros \
