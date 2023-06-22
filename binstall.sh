@@ -68,38 +68,16 @@ apt install -y \
     gpick \
     greybird-gtk-theme \
     qt5tc \
-    adwaita-qt
+    adwaita-qt \
+    firefox-esr
 
-apt install -y \
-    cups \
-    system-config-printer \
-    printer-driver-gutenprint \
-    printer-driver-escpr \
-    cups-client \
-    hplip
+
     
 apt install -y \
-    bluez \
-    pulseaudio-module-bluetooth \
-    thunderbird \
-    qbittorrent \
-    vlc \
-    atril \
-    blueman \
-    firefox-esr \
-    libgtk-3-dev
-    
-#apt install -y \
-#    network-manager-gnome
+    network-manager-gnome
     
 apt update
 
-apt install -y \
-    libreoffice-writer \
-    libreoffice-calc \
-    libreoffice-gtk3 \
-    libreoffice-l10n-pt-br
-    
 apt install -y \
     lightdm
 
