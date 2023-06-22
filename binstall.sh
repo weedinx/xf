@@ -12,9 +12,7 @@ cp xf/apt.conf /etc/apt/
 cp xf/sudoers /etc/
 
 apt install -y \
-   xserver-xorg-core \
-   xserver-xorg-video-fbdev \
-   xserver-xorg \
+   xorg \
    xinit
 
 apt install -y \
@@ -89,8 +87,8 @@ apt install -y \
     firefox-esr \
     libgtk-3-dev
     
-apt install -y \
-    network-manager-gnome
+#apt install -y \
+#    network-manager-gnome
     
 apt update
 
