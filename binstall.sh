@@ -22,9 +22,6 @@ apt install -y \
 cp xf/apt.conf /etc/apt/
 cp xf/sudoers /etc/
 
-cp xf/apt.conf /etc/apt/
-cp xf/sudoers /etc/
-
 apt install -y \
     libxfce4ui-utils \
     thunar \
