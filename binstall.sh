@@ -43,7 +43,6 @@ apt install -y \
     xfwm4 \
     xfce4-screenshooter \
     xfce4-power-manager \
-    desktop-base \
     xfce4-whiskermenu-plugin \
     x11-xserver-utils
     
