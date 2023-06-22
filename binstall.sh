@@ -41,7 +41,8 @@ apt install -y \
     xfce4-screenshooter \
     xfce4-power-manager \
     xfce4-whiskermenu-plugin \
-    x11-xserver-utils
+    x11-xserver-utils \
+    tumbler
 
 apt install -y \
     lightdm \
