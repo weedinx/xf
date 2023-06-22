@@ -48,7 +48,7 @@ apt install -y \
     xfce4-power-manager \
     xfce4-whiskermenu-plugin
     
-#mv etc/apt/apt.conf /etc/apt/apt.conf.a
+mv etc/apt/apt.conf /etc/apt/apt.conf.a
 
 apt update
     
@@ -114,7 +114,7 @@ apt update
 tar -xvf xf/wallpapers1.tar.gz -C /usr/share/images/desktop-base/
 tar -xvf xf/wallpapers2.tar.gz -C /usr/share/images/desktop-base/
     
-mv etc/apt/apt.conf.a /etc/apt/apt.conf
+#mv etc/apt/apt.conf.a /etc/apt/apt.conf
 
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
