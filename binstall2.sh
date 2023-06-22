@@ -6,9 +6,7 @@ apt install -y \
     gvfs \
     gvfs-fuse \
     gvfs-backends \
-    udisks2
-    
-apt install -y \
+    udisks2 \
     curl \
     git \
     htop \
@@ -16,9 +14,7 @@ apt install -y \
     cpu-x \
     gpick \
     greybird-gtk-theme \
-    adwaita-qt
-
-apt install -y \
+    adwaita-qt \
     cups \
     system-config-printer \
     printer-driver-gutenprint \
@@ -33,15 +29,34 @@ apt install -y \
     atril \
     blueman \
     firefox-esr \
-    libgtk-3-dev
-    
-apt update
-
-apt install -y \
+    libgtk-3-dev \
     libreoffice-writer \
     libreoffice-calc \
     libreoffice-gtk3 \
     libreoffice-l10n-pt-br
+
+apt update
+
+apt install -y qemu-system libvirt-daemon-system
+apt update
+apt install -y virt-manager
+usermod -aG kvm and
+usermod -aG libvirt and
+systemctl enable --now libvirtd
+systemctl start libvirtd
+apt --fix-broken install
+
+wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb -O balena.deb
+dpkg -i balena.deb
+apt --fix-broken install
+
+#wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
+#dpkg -i chrome.deb
+#apt --fix-broken install
+
+wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/code_1.78.2-1683731010_amd64.deb -O vscode.deb
+dpkg -i vscode.deb
+apt --fix-broken install
 
 chmod 777 /usr/share/themes/
 chmod 777 /usr/share/backgrounds/
@@ -63,5 +78,3 @@ systemctl disable systemd-networkd-wait-online.service
 systemctl mask systemd-networkd-wait-online.service
 
 apt update && apt -y upgrade
-        
-shutdown -r now
