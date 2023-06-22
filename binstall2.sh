@@ -30,6 +30,7 @@ apt install -y \
     blueman \
     firefox-esr \
     libgtk-3-dev \
+    cockpit \
     libreoffice-writer \
     libreoffice-calc \
     libreoffice-gtk3 \
