@@ -2,6 +2,12 @@
 
 apt update && apt -y upgrade
 
+apt install -y
+   firmware-linux-nonfree \
+   firmware-iwlwifi \
+   firmware-atheros \
+   firmware-realtek
+
 apt install -y \
    xserver-xorg-video-intel
 
