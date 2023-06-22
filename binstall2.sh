@@ -16,7 +16,6 @@ apt install -y \
     cpu-x \
     gpick \
     greybird-gtk-theme \
-    qt5tc \
     adwaita-qt
 
 apt install -y \
