@@ -46,7 +46,7 @@ apt install -y \
     xfce4-whiskermenu-plugin
     
 #mv etc/apt/apt.conf /etc/apt/apt.conf.a
-rm -rf etc/apt/apt.conf
+rm -rf /etc/apt/apt.conf
 
 apt update
     
