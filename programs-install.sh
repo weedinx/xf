@@ -28,7 +28,6 @@ apt install -y \
     vlc \
     atril \
     blueman \
-    firefox-esr \
     libgtk-3-dev \
     cockpit \
     libreoffice-writer \
