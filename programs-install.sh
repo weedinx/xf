@@ -58,6 +58,9 @@ wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03
 dpkg -i vscode.deb
 apt --fix-broken install
 
+sudo apt install -y libvirt-clients libvirt-daemon-system libvirt-daemon virtinst bridge-utils qemu qemu-kvm
+sudo apt install -y virt-manager
+
 chmod 777 /usr/share/themes/
 chmod 777 /usr/share/backgrounds/
 chmod 777 /usr/share/backgrounds/xfce/
