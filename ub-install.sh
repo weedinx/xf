@@ -16,9 +16,12 @@ apt install -y network-manager-gnome
     
 rm -rf /etc/apt/apt.conf
 
+apt install -y language-pack-pt
+
+sudo dpkg-reconfigure locales
+
 apt update
 
-apt install -y language-selector-common
+#apt install -y language-selector-common
 apt install -y lightdm-gtk-greeter
-        
-shutdown -r now
+
