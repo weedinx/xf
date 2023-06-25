@@ -21,9 +21,11 @@ apt update
 sudo apt install -y libvirt-clients libvirt-daemon-system libvirt-daemon virtinst bridge-utils qemu qemu-kvm
 sudo apt install -y virt-manager
 
-apt install -y language-pack-pt
+mkdir /usr/share/icons/kora
+unzip xf/kora.zip -d /usr/share/icons/kora/
 
 sudo dpkg-reconfigure locales
+apt install -y language-pack-pt
 
 apt update
 
