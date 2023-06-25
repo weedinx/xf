@@ -68,6 +68,8 @@ apt update
 
 tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/xfce/
 tar -xvf xf/wallpapers2.tar.gz -C /usr/share/backgrounds/xfce/
+tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/
+tar -xvf xf/wallpapers2.tar.gz -C /usr/share/backgrounds/
     
 #mv etc/apt/apt.conf.a /etc/apt/apt.conf
 
