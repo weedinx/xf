@@ -46,7 +46,10 @@ apt install -y \
     libreoffice-l10n-pt-br \
     update-manager \
     policykit-1-gnome \
-    synaptic
+    synaptic \
+    python3-pydrive \
+    deja-dup
+    
 
 apt update
 
