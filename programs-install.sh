@@ -13,7 +13,9 @@ apt install -y \
     viewnior \
     cpu-x \
     gpick \
+    inxi \
     greybird-gtk-theme \
+    tema numix-gtk \
     adwaita-qt \
     cups \
     system-config-printer \
@@ -21,15 +23,19 @@ apt install -y \
     printer-driver-escpr \
     cups-client \
     hplip \
+    avahi-utils \
+    system-config-printer-udev \
     blueman \
     bluez \
     bluez-cups \
+    xcursor-themes \
     thunderbird \
     qbittorrent \
     vlc \
     atril \
     blueman \
     libgtk-3-dev \
+    gstreamer1.0-pulseaudio \
     cockpit \
     libreoffice-writer \
     libreoffice-calc \
