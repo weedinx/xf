@@ -29,7 +29,7 @@ apt install -y \
     system-config-printer-udev \
     bluez \
     bluez-cups \
-    pulseaudio-module-bluetooth
+    pulseaudio-module-bluetooth \
     xcursor-themes \
     dmz-cursor-theme \
     thunderbird \
