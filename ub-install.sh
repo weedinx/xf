@@ -16,6 +16,11 @@ apt install -y network-manager-gnome
     
 rm -rf /etc/apt/apt.conf
 
+apt update
+
+sudo apt install -y libvirt-clients libvirt-daemon-system libvirt-daemon virtinst bridge-utils qemu qemu-kvm
+sudo apt install -y virt-manager
+
 apt install -y language-pack-pt
 
 sudo dpkg-reconfigure locales
