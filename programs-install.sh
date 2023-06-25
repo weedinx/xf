@@ -15,6 +15,8 @@ apt install -y \
     gpick \
     inxi \
     tumbler \
+    gtk2-engines-pixbuf \
+    gtk2-engines-murrine \
     greybird-gtk-theme \
     adwaita-icon-theme-full \
     cups \
