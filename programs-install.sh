@@ -27,9 +27,9 @@ apt install -y \
     hplip \
     avahi-utils \
     system-config-printer-udev \
-    blueman \
     bluez \
     bluez-cups \
+    pulseaudio-module-bluetooth
     xcursor-themes \
     dmz-cursor-theme \
     thunderbird \
