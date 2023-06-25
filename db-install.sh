@@ -15,9 +15,19 @@ apt install -y lightdm
 #mv etc/apt/apt.conf /etc/apt/apt.conf.a
     
 rm -rf /etc/apt/apt.conf
+
 apt update
 
 apt install -y network-manager-gnome
+
+apt install -y qemu-system libvirt-daemon-system
+apt update
+apt install -y virt-manager
+usermod -aG kvm and
+usermod -aG libvirt and
+systemctl enable --now libvirtd
+systemctl start libvirtd
+apt --fix-broken install
     
 apt update
         
