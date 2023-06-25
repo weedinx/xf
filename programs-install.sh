@@ -29,14 +29,13 @@ apt install -y \
     system-config-printer-udev \
     bluez \
     bluez-cups \
-    pulseaudio-module-bluetooth \
+    blueman \
     xcursor-themes \
     dmz-cursor-theme \
     thunderbird \
     qbittorrent \
     vlc \
     atril \
-    blueman \
     libgtk-3-dev \
     gstreamer1.0-pulseaudio \
     cockpit \
