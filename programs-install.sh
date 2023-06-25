@@ -14,9 +14,9 @@ apt install -y \
     cpu-x \
     gpick \
     inxi \
+    tumbler \
     greybird-gtk-theme \
-    tema numix-gtk \
-    adwaita-qt \
+    adwaita-icon-theme-full \
     cups \
     system-config-printer \
     printer-driver-gutenprint \
