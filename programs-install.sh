@@ -73,7 +73,7 @@ chmod 777 /usr/share/images/desktop-base/
 
 apt update
 
-tar -xvf xf/ClassicSparrow-Dream-dm.tar.gz -C /usr/share/icons/
+tar -xvf xf/ClassicSparrow-Dream-dm.tar.gz -C /usr/share/themes/
 tar -xvf xf/kora.tar.gz -C /usr/share/icons/
 tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/
 tar -xvf xf/wallpapers2.tar.gz -C /usr/share/backgrounds/
