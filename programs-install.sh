@@ -31,6 +31,7 @@ apt install -y \
     bluez \
     bluez-cups \
     xcursor-themes \
+    dmz-cursor-theme \
     thunderbird \
     qbittorrent \
     vlc \
