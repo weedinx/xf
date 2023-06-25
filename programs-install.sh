@@ -21,8 +21,9 @@ apt install -y \
     printer-driver-escpr \
     cups-client \
     hplip \
+    blueman \
     bluez \
-    pulseaudio-module-bluetooth \
+    bluez-cups \
     thunderbird \
     qbittorrent \
     vlc \
