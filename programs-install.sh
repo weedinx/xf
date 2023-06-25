@@ -42,18 +42,12 @@ apt install -y \
     libreoffice-writer \
     libreoffice-calc \
     libreoffice-gtk3 \
-    libreoffice-l10n-pt-br
+    libreoffice-l10n-pt-br \
+    update-manager \
+    policykit-1-gnome \
+    synaptic
 
 apt update
-
-#apt install -y qemu-system libvirt-daemon-system
-#apt update
-#apt install -y virt-manager
-#usermod -aG kvm and
-#usermod -aG libvirt and
-#systemctl enable --now libvirtd
-#systemctl start libvirtd
-#apt --fix-broken install
 
 wget https://github.com/balena-io/etcher/releases/download/v1.18.4/balena-etcher_1.18.4_amd64.deb -O balena.deb
 dpkg -i balena.deb
