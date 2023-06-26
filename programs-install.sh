@@ -47,9 +47,7 @@ apt install -y \
     policykit-1-gnome \
     synaptic \
     python3-pydrive \
-    deja-dup \
-    gnome-control-center \
-    gnome-online-accounts
+    deja-dup
 
 apt update
 
