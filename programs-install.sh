@@ -13,7 +13,6 @@ apt install -y \
     viewnior \
     cpu-x \
     gpick \
-    isomaster \
     inxi \
     tumbler \
     gtk2-engines-pixbuf \
