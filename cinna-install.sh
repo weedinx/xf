@@ -7,15 +7,15 @@ apt update && apt -y upgrade
 cp xf/apt.conf /etc/apt/
 
 apt update
-
-apt install -y cinnamon-core
-#apt install -y nemo nemo-fileroller
-#apt install -y network-manager-gnome
+apt install -y xorg
+apt install -y cinnamon-session
+apt install -y nemo nemo-fileroller nemo-terminal
     
 rm -rf /etc/apt/apt.conf
 
 apt update
-
+apt install -y lightdm
+apt install -y network-manager-gnome
 #sudo apt install -y libvirt-clients libvirt-daemon-system libvirt-daemon virtinst bridge-utils qemu qemu-kvm
 #sudo apt install -y virt-manager
 #sudo apt install -y greybird-gtk-theme adwaita-icon-theme-full
