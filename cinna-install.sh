@@ -13,12 +13,12 @@ apt install -y nemo-fileroller cinnamon-l10n
 
 apt update
 cp xf/apt.conf /etc/apt/
+apt update
 apt install -y network-manager-gnome
 rm -rf /etc/apt/apt.conf
 
 apt update
 
-apt update
 #apt install -y xorg
 apt install -y cinnamon-desktop-environment
 #apt install -y cinnamon
