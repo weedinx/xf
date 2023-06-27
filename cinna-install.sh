@@ -3,9 +3,10 @@
 apt update && apt -y upgrade
 
 cp xf/apt.conf /etc/apt/
-apt-get --no-install-recommends install -y xserver-xorg-core
-apt-get --no-install-recommends install -y xserver-xorg-video-fbdev
-apt-get --no-install-recommends install -y xserver-xorg
+apt update
+apt install -y xserver-xorg-core
+apt install -y xserver-xorg-video-fbdev
+apt install -y xserver-xorg
 rm -rf /etc/apt/apt.conf
 
 apt update
