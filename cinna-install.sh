@@ -18,8 +18,10 @@ apt update
 
 apt update
 apt install -y xorg
+apt install -y cinnamon
 apt install -y cinnamon-core
 apt install -y cinnamon-control-center-goa
+apt install -y metacity-common
 apt install -y network-manager-gnome
     
 rm -rf /etc/apt/apt.conf
