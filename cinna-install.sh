@@ -2,17 +2,15 @@
 
 apt update && apt -y upgrade
 
-apt install -y zip unzip tar gzip p7zip-full
+#apt install -y zip unzip tar gzip p7zip-full
 
 cp xf/apt.conf /etc/apt/
 
 apt update
 
-apt install -y xorg
-apt install -y libxfce4ui-utils xfce4-pulseaudio-plugin xfce4-appfinder xfce4-panel xfce4-session xfce4-settings xfce4-terminal xfconf xfdesktop4 xfwm4 xfce4-screenshooter xfce4-power-manager xfce4-whiskermenu-plugin x11-xserver-utils tumbler
+apt install -y cinnamon-core
 apt install -y nemo nemo-fileroller
-apt install -y lightdm
-apt install -y network-manager-gnome
+#apt install -y network-manager-gnome
     
 rm -rf /etc/apt/apt.conf
 
@@ -25,10 +23,9 @@ apt update
 #mkdir /usr/share/icons/kora
 #unzip xf/kora.zip -d /usr/share/icons/kora/
 
-sudo dpkg-reconfigure locales
+#sudo dpkg-reconfigure locales
 apt install -y language-pack-pt
 
 apt update
 
 #apt install -y language-selector-common
-apt install -y lightdm-gtk-greeter
