@@ -20,7 +20,7 @@ rm -rf /etc/apt/apt.conf
 apt update
 
 #apt install -y xorg
-apt install -y cinnamon-desktop-environment
+#apt install -y cinnamon-desktop-environment
 #apt install -y cinnamon
 apt install -y cinnamon-core
 apt install -y cinnamon-control-center-goa
