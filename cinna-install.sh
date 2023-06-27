@@ -11,6 +11,7 @@ mv xf/apt1.conf /etc/apt/apt.conf
 apt update
 apt install -y nemo-fileroller cinnamon-l10n
 
+rm -rf /etc/apt/apt.conf
 cp xf/apt.conf /etc/apt/
 
 apt update
