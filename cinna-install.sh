@@ -9,7 +9,7 @@ cp xf/apt.conf /etc/apt/
 apt update
 
 apt install -y cinnamon-core
-apt install -y nemo nemo-fileroller
+#apt install -y nemo nemo-fileroller
 #apt install -y network-manager-gnome
     
 rm -rf /etc/apt/apt.conf
