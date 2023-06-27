@@ -6,16 +6,20 @@ sudo apt install -y network-manager
 
 apt install -y zip unzip tar gzip p7zip-full
 
+cp xf/apt1.conf /etc/apt/
+mv xf/apt1.conf /etc/apt/apt.conf
+apt update
+apt install -y nemo-fileroller cinnamon-l10n
+
 cp xf/apt.conf /etc/apt/
 
 apt update
 
 apt update
 apt install -y xorg
-apt install -y gnome-control-center gnome-online-accounts
-apt install -y cinnamon
+apt install -y cinnamon-core
+apt install -y cinnamon-control-center-goa
 apt install -y network-manager-gnome
-apt install -y nemo-fileroller cinnamon-l10n
     
 rm -rf /etc/apt/apt.conf
 
