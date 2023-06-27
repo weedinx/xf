@@ -3,7 +3,6 @@
 apt update && apt -y upgrade
 
 sudo apt install -y network-manager
-sudo apt install -y gnome-control-center gnome-online-accounts
 
 apt install -y zip unzip tar gzip p7zip-full
 
@@ -13,7 +12,8 @@ apt update
 
 apt update
 apt install -y xorg
-apt install -y cinnamon-core
+apt install -y gnome-control-center gnome-online-accounts
+apt install -y cinnamon
 apt install -y network-manager-gnome
 apt install -y nemo-fileroller cinnamon-l10n
     
