@@ -27,8 +27,6 @@ apt install -y \
     hplip \
     avahi-utils \
     system-config-printer-udev \
-    bluez \
-    bluez-cups \
     blueman \
     xcursor-themes \
     dmz-cursor-theme \
@@ -85,3 +83,7 @@ systemctl disable systemd-networkd-wait-online.service
 systemctl mask systemd-networkd-wait-online.service
 
 apt update && apt -y upgrade
+
+
+#   bluez \
+#   bluez-cups \
