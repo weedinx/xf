@@ -6,8 +6,8 @@ sudo apt install -y network-manager
 
 apt install -y zip unzip tar gzip p7zip-full
 
-cp xf/apt1.conf /etc/apt/
-mv xf/apt1.conf /etc/apt/apt.conf
+#cp xf/apt1.conf /etc/apt/
+#mv xf/apt1.conf /etc/apt/apt.conf
 apt update
 apt install -y nemo-fileroller cinnamon-l10n
 
