@@ -44,4 +44,6 @@ sudo apt -y autoremove pulseaudio-module-bluetooth* --purge
 
 apt update
 
+sudo reboot
+
 #apt install -y language-selector-common
