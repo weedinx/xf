@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#INSTALAÇÃO MINIMA DO XFCE4 NO UBUNTU 22.04
+
 apt update && apt -y upgrade
 
 apt install -y zip unzip tar gzip p7zip-full
