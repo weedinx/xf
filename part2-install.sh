@@ -1,5 +1,7 @@
 #!/bin/bash
 
+###INSTALAÇÃO DE PROGRAMAS E COMPLEMENTOS NO DEBIAN 12 BOOKWORM (ESTÁVEL) E NO UBUNTU 22.04 (ESTÁVEL)###
+
 apt update && apt -y upgrade
     
 apt install -y \
