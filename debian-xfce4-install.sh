@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#INSTALAÇÃO MINIMA DO XFCE4 NO DEBIAN 12 BOOKWORM (ESTÁVEL)
+###INSTALAÇÃO MINIMA DO XFCE4 NO DEBIAN 12 BOOKWORM (ESTÁVEL)###
 
 apt update && apt -y upgrade
 
