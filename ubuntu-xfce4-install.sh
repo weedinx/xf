@@ -26,7 +26,7 @@ mkdir /usr/share/icons/kora
 unzip xf/kora.zip -d /usr/share/icons/kora/
 
 sudo dpkg-reconfigure locales
-apt install -y language-pack-pt
+apt install -y language-pack-pt apt install -y language-pack-pt # <-- ALTERE ESTE PACOTE CONFORME A LINGUA FALADA NO SEU PAÍS
 
 apt update
 
