@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#INSTALAÇÃO MINIMA DO XFCE4 NO DEBIAN 12 BOOKWORM (ESTÁVEL)
+
 apt update && apt -y upgrade
 
 apt install -y firmware-linux-nonfree firmware-iwlwifi firmware-atheros firmware-realtek
