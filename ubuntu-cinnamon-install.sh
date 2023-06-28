@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#INSTALAÇÃO MINIMA DO CINNAMON NO UBUNTU 22.04
+
 apt update && apt -y upgrade
 
 cp xf/apt.conf /etc/apt/
