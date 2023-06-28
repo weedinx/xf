@@ -38,7 +38,5 @@ apt install -y language-pack-pt # <-- ALTERE ESTE PACOTE CONFORME A LINGUA FALAD
 
 apt -y autoremove pulseaudio-module-bluetooth* --purge
 
-apt update
-
 apt update && apt -y upgrade
 sudo reboot
