@@ -28,8 +28,8 @@ unzip xf/kora.zip -d /usr/share/icons/kora/
 sudo dpkg-reconfigure locales
 apt install -y language-pack-pt apt install -y language-pack-pt # <-- ALTERE ESTE PACOTE CONFORME A LINGUA FALADA NO SEU PAÍS
 
-apt update
-
-#apt install -y language-selector-common
 apt install -y lightdm-gtk-greeter
+
+apt update && apt -y upgrade
+sudo reboot
 
