@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#INSTALAÇÃO MINIMA DO CINNAMON NO UBUNTU 22.04
+#INSTALAÇÃO MINIMA DO CINNAMON NO UBUNTU 22.04 (ESTÁVEL)
 
 apt update && apt -y upgrade
 
