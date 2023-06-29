@@ -33,6 +33,7 @@ gtk2-engines-pixbuf \
 gvfs-backends \
 gvfs-fuse \
 greybird-gtk-theme \
+gnome-disk-utility \
 inputattach \
 language-selector-common \
 language-selector-gnome \
@@ -64,6 +65,7 @@ xubuntu-default-settings \
 xubuntu-default-settings \
 zenity \
 xfce4-whiskermenu-plugin \
+xfce4-pulseaudio-plugin \
 xubuntu-community-wallpapers
 
 apt update 
