@@ -55,6 +55,7 @@ xfce4-session \
 xfce4-settings \
 xfdesktop4 \
 xfwm4 \
+xfce4-terminal \
 xkb-data \
 xubuntu-artwork \
 xubuntu-default-settings \
