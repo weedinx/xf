@@ -4,6 +4,8 @@
 
 apt update && apt -y upgrade
 
+sudo apt install -y network-manager
+
 cp xf/apt.conf /etc/apt/
 
 apt update
@@ -62,7 +64,11 @@ xubuntu-default-settings \
 xubuntu-default-settings \
 zenity \
 xfce4-whiskermenu-plugin \
-xubuntu-community-wallpapers \
+xubuntu-community-wallpapers
+
+apt update 
+
+sudo apt install -y network-manager-gnome
 
 rm -rf /etc/apt/apt.conf
 
