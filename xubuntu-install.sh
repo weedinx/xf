@@ -84,5 +84,3 @@ apt install -y virt-manager
 apt update && apt -y upgrade
 
 bash xf/part2-install.sh
-
-sudo reboot
