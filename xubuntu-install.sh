@@ -76,6 +76,9 @@ apt update
 
 apt install -y lightdm lightdm-gtk-greeter
 
+apt install -y libvirt-clients libvirt-daemon-system libvirt-daemon virtinst bridge-utils qemu qemu-kvm
+apt install -y virt-manager
+
 apt update && apt -y upgrade
 
 sudo reboot
