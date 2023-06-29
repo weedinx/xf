@@ -77,8 +77,8 @@ tar -xvf xf/ClassicSparrow-Dream-dm.tar.gz -C /usr/share/themes/
 tar -xvf xf/kora.tar.gz -C /usr/share/icons/
 tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/
 tar -xvf xf/wallpapers2.tar.gz -C /usr/share/backgrounds/
-    
-#mv etc/apt/apt.conf.a /etc/apt/apt.conf
+tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/xfce/
+tar -xvf xf/wallpapers1.tar.gz -C /usr/share/backgrounds/xfce/
 
 timedatectl set-timezone America/Sao_Paulo
 systemctl restart systemd-timedated
