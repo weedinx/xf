@@ -67,7 +67,7 @@ rm -rf /etc/apt/apt.conf
 
 apt update
 
-apt install -y lightdm ligthtm-gtk-greeter
+apt install -y lightdm lightdm-gtk-greeter
 
 apt update && apt -y upgrade
 
