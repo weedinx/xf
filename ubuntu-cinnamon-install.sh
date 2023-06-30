@@ -35,7 +35,5 @@ apt update
 sudo dpkg-reconfigure locales
 apt install -y language-pack-pt # <-- ALTERE ESTE PACOTE CONFORME A LINGUA FALADA NO SEU PAÍS
 
-apt -y autoremove pulseaudio-module-bluetooth* --purge
-
 apt update && apt -y upgrade
 sudo reboot
