@@ -33,7 +33,7 @@ sudo apt install -y virt-manager
 apt update
 
 sudo dpkg-reconfigure locales
-apt install -y language-pack-pt # <-- ALTERE ESTE PACOTE CONFORME A LINGUA FALADA NO SEU PAÍS
+apt install -y language-pack-pt # <-- ALTERE ESTE PACOTE CONFORME O IDIOMA DO SEU PAÍS
 
 apt update && apt -y upgrade
 
