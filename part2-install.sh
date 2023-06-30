@@ -87,8 +87,6 @@ systemctl restart systemd-timedated
 systemctl disable systemd-networkd-wait-online.service
 systemctl mask systemd-networkd-wait-online.service
 
-apt -y autoremove pulseaudio-module-bluetooth* --purge
-
 apt update && apt -y upgrade
 
 sudo reboot
