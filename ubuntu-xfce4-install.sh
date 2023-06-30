@@ -31,5 +31,6 @@ apt install -y language-pack-pt apt install -y language-pack-pt # <-- ALTERE EST
 apt install -y lightdm-gtk-greeter
 
 apt update && apt -y upgrade
-sudo reboot
+
+sudo bash xf/part2-install.sh
 
