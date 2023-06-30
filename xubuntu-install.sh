@@ -82,7 +82,7 @@ apt install -y libvirt-clients libvirt-daemon-system libvirt-daemon virtinst bri
 apt install -y virt-manager
 
 sudo dpkg-reconfigure locales
-apt install -y language-pack-pt # <-- ALTERE ESTE PACOTE CONFORME A LINGUA FALADA NO SEU PAÍS
+apt install -y language-pack-pt # <-- ALTERE ESTE PACOTE CONFORME O IDIOMA DO SEU PAÍS
 
 apt update && apt -y upgrade
 
