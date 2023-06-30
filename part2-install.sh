@@ -46,6 +46,7 @@ apt install -y \
     libreoffice-calc \
     libreoffice-gtk3 \
     libreoffice-l10n-pt-br \
+    sshpass \
     update-manager \
     policykit-1-gnome \
     synaptic \
