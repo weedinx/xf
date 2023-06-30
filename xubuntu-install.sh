@@ -81,6 +81,9 @@ apt install -y lightdm lightdm-gtk-greeter
 apt install -y libvirt-clients libvirt-daemon-system libvirt-daemon virtinst bridge-utils qemu qemu-kvm
 apt install -y virt-manager
 
+sudo dpkg-reconfigure locales
+apt install -y language-pack-pt # <-- ALTERE ESTE PACOTE CONFORME A LINGUA FALADA NO SEU PAÍS
+
 apt update && apt -y upgrade
 
 sudo bash xf/part2-install.sh
