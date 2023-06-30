@@ -36,4 +36,5 @@ sudo dpkg-reconfigure locales
 apt install -y language-pack-pt # <-- ALTERE ESTE PACOTE CONFORME A LINGUA FALADA NO SEU PAÍS
 
 apt update && apt -y upgrade
-sudo reboot
+
+sudo bash xf/part2-install.sh
