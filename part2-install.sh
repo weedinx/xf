@@ -66,6 +66,10 @@ wget https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03
 dpkg -i vscode.deb
 apt --fix-broken install
 
+wget https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb -0 dbeaver.deb
+dpkg -i vscode.deb
+apt --fix-broken install
+
 chmod 777 /usr/share/themes/
 chmod 777 /usr/share/backgrounds/
 chmod 777 /usr/share/backgrounds/xfce/
