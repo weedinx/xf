@@ -33,6 +33,7 @@ apt install -y \
     pulseaudio-module-bluetooth \
     blueman \
     bluez-firmware \
+    bluez-tools \
     xcursor-themes \
     dmz-cursor-theme \
     thunderbird \
