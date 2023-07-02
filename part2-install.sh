@@ -8,6 +8,7 @@ apt install -y \
     gvfs \
     gvfs-fuse \
     gvfs-backends \
+    libfuse2 \
     udisks2 \
     curl \
     git \
@@ -17,6 +18,8 @@ apt install -y \
     gpick \
     inxi \
     tumbler \
+    darktable \
+    ghostwriter \
     gtk2-engines-pixbuf \
     gtk2-engines-murrine \
     greybird-gtk-theme \
@@ -53,6 +56,12 @@ apt install -y \
     synaptic \
     python3-pydrive \
     deja-dup
+
+    snap install -y
+    darktable \
+    figma-linux \
+    
+    
 
 apt update
 
