@@ -66,6 +66,7 @@ xubuntu-default-settings \
 zenity \
 xfce4-whiskermenu-plugin \
 xfce4-pulseaudio-plugin \
+xfce4-screenshooter \
 xubuntu-community-wallpapers
 
 apt update 
