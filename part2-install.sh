@@ -5,7 +5,8 @@
 apt update && apt -y upgrade
     
 apt install -y \
-build-essential \
+    build-essential \
+    ubuntu-restricted-extras \
     gvfs \
     gvfs-fuse \
     gvfs-backends \
