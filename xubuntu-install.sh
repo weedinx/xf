@@ -17,6 +17,7 @@ apt install -y xserver-xorg
 sudo apt install -y \
 alsa-base \
 alsa-utils \
+anacron \
 avahi-daemon \
 adwaita-icon-theme-full \
 bc \
@@ -40,6 +41,7 @@ language-selector-gnome \
 libasound2-plugins \
 libsasl2-modules \
 libu2f-udev \
+libasound2-plugins \
 openprinting-ppds \
 printer-driver-pnm2ppa \
 rfkill \
@@ -61,7 +63,6 @@ xfwm4 \
 xfce4-terminal \
 xkb-data \
 xubuntu-artwork \
-xubuntu-default-settings \
 xubuntu-default-settings \
 zenity \
 xfce4-whiskermenu-plugin \
