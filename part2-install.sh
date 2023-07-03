@@ -65,11 +65,10 @@ build-essential \
     libxcb-cursor0 \
     libxcb-damage0
 
-    snap install -y
-    darktable \
-    figma-linux \
-    sublime-text --classic \
-    discord
+    snap install darktable
+    snap install figma-linux
+    snap install sublime-text --classic
+    snap install discord
     
     
 
