@@ -34,13 +34,12 @@ apt install -y \
     printer-driver-escpr \
     cups-client \
     hplip \
-    avahi-utils \
     system-config-printer-udev \
     bluetooth \
     pulseaudio-module-bluetooth \
-    blueman \
-    bluez-firmware \
-    bluez-tools \
+    #blueman \
+    #bluez-firmware \
+    #bluez-tools \
     xcursor-themes \
     dmz-cursor-theme \
     thunderbird \
