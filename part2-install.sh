@@ -40,7 +40,6 @@ apt install -y \
     #blueman \
     #bluez-firmware \
     #bluez-tools \
-    xcursor-themes \
     dmz-cursor-theme \
     thunderbird \
     qbittorrent \
