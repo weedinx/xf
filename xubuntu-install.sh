@@ -1,6 +1,6 @@
 #!/bin/bash
 
-###INSTALAÇÃO DO XUBUNTU 22.04 (ESTÁVEL)###
+###INSTALAÇÃO DO XUBUNTU CORE 22.04 (ESTÁVEL)###
 
 apt update && apt -y upgrade
 
