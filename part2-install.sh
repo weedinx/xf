@@ -15,6 +15,7 @@ apt install -y \
     htop \
     viewnior \
     cpu-x \
+    hardinfo \
     gpick \
     inxi \
     tumbler \
@@ -24,6 +25,7 @@ apt install -y \
     gtk2-engines-murrine \
     greybird-gtk-theme \
     adwaita-icon-theme-full \
+    terminator \
     cups \
     system-config-printer \
     printer-driver-gutenprint \
@@ -65,6 +67,8 @@ apt install -y \
     snap install -y
     darktable \
     figma-linux \
+    sublime-text --classic \
+    discord
     
     
 
