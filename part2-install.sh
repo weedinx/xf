@@ -55,7 +55,12 @@ apt install -y \
     policykit-1-gnome \
     synaptic \
     python3-pydrive \
-    deja-dup
+    deja-dup \
+    libapr1 \
+    libaprutil1 \
+    libglu1-mesa \
+    libxcb-cursor0 \
+    libxcb-damage0
 
     snap install -y
     darktable \
