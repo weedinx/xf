@@ -5,6 +5,7 @@
 apt update && apt -y upgrade
     
 apt install -y \
+build-essential \
     gvfs \
     gvfs-fuse \
     gvfs-backends \
