@@ -34,8 +34,6 @@ apt install -y \
     cups-client \
     hplip \
     system-config-printer-udev \
-    #bluetooth \
-    #pulseaudio-module-bluetooth \
     blueman \
     bluez-firmware \
     bluez-tools \
@@ -116,3 +114,5 @@ sudo reboot
 #EXTRAS
 #Não uso com frequencia Davinci Resoove, caso queira instalar este software, siga os passos do link abaixo:
 #https://linux.how2shout.com/how-to-install-davinci-resolve-on-ubuntu-22-04-lts-jammy/
+#bluetooth \
+#pulseaudio-module-bluetooth \
