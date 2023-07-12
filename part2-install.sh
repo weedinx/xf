@@ -35,11 +35,11 @@ apt install -y \
     cups-client \
     hplip \
     system-config-printer-udev \
-    bluetooth \
-    pulseaudio-module-bluetooth \
-    #blueman \
-    #bluez-firmware \
-    #bluez-tools \
+    #bluetooth \
+    #pulseaudio-module-bluetooth \
+    blueman \
+    bluez-firmware \
+    bluez-tools \
     dmz-cursor-theme \
     thunderbird \
     qbittorrent \
