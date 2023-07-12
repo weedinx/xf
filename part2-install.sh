@@ -21,7 +21,6 @@ apt install -y \
     gpick \
     inxi \
     tumbler \
-    darktable \
     ghostwriter \
     gtk2-engines-pixbuf \
     gtk2-engines-murrine \
