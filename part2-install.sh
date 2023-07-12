@@ -36,6 +36,8 @@ apt install -y \
     system-config-printer-udev \
     bluetooth \
     pulseaudio-module-bluetooth \
+    blueman \
+    bluez-firmware \
     dmz-cursor-theme \
     thunderbird \
     qbittorrent \
